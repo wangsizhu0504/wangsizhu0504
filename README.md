@@ -4,7 +4,7 @@
 
 ![](https://visitor-badge.glitch.me/badge?page_id=Biscuit0504.Biscuit0504)
 
-#### 努力coding...
+#### 努力学习，努力生活...
 
 <!--
 **Biscuit0504/Biscuit0504** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
