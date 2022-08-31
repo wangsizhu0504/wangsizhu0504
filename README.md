@@ -17,23 +17,8 @@
 
 #### 努力学习，努力生活...
 <p align="center"> 
-  Visitor count<br>
-  <img src="https://profile-counter.glitch.me/Biscuit0504/count.svg" />
+  <img src="https://profile-counter.glitch.me/Biscuit0504/count.svg" /> visitors
 </p>
-<!--
-**Biscuit0504/Biscuit0504** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 
 <p>
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Biscuit0504&theme=tokyonight" />
@@ -42,6 +27,6 @@ Here are some ideas to get you started:
 </p>
 <!-- profile-3d-contrib -->
 
-![](https://cdn.jsdelivr.net/gh/Biscuit0504/Biscuit0504/profile-3d-contrib/profile-green.svg#gh-light-mode-only)
-![](https://cdn.jsdelivr.net/gh/Biscuit0504/Biscuit0504/profile-3d-contrib/profile-night-green.svg#gh-dark-mode-only)
+![](./profile-3d-contrib/profile-green.svg#gh-light-mode-only)
+![](./profile-3d-contrib/profile-night-green.svg#gh-dark-mode-only)
 
