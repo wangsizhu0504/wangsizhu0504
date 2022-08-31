@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://github.com/Biscuit0504">
+  <a href="https://github.com/wangsizhu0504">
     <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&pause=1000&color=51CF35&width=435&lines=console.log(%22Hello%2C%20World!%22);Welcome+to+my+Github+Page!;I%E2%80%99m+currently+working+on+web++frontend+development" alt="Typing SVG" />
   </a>
 </p> 
@@ -60,13 +60,13 @@
 #### 努力学习，努力生活...
 
 <p align="center"> 
-  <img src="https://profile-counter.glitch.me/Biscuit0504/count.svg" /> visitors
+  <img src="https://profile-counter.glitch.me/wangsizhu0504/count.svg" /> visitors
 </p>
 
 <p>
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Biscuit0504&theme=tokyonight" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Biscuit0504&layout=compact&theme=tokyonight" />
-  <img width="100%" src="https://activity-graph.herokuapp.com/graph?username=Biscuit0504&bg_color=ffffff&color=40b883&line=40b883&point=40b883&area=true&hide_border=true&area_color=477de9" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=wangsizhu0504&theme=tokyonight" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wangsizhu0504&layout=compact&theme=tokyonight" />
+  <img width="100%" src="https://activity-graph.herokuapp.com/graph?username=wangsizhu0504&bg_color=ffffff&color=40b883&line=40b883&point=40b883&area=true&hide_border=true&area_color=477de9" />
 </p>
 <!-- profile-3d-contrib -->
 
