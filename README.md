@@ -1,7 +1,11 @@
-<a href="https://github.com/Biscuit0504">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&pause=1000&color=51CF35&width=435&lines=console.log(%22Hello%2C%20World!%22);Welcome+to+my+Github+Page!;I%E2%80%99m+currently+working+on+web++frontend+development" alt="Typing SVG" />
-</a>
+<p align="center">
+  <a href="https://github.com/Biscuit0504">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&pause=1000&color=51CF35&width=435&lines=console.log(%22Hello%2C%20World!%22);Welcome+to+my+Github+Page!;I%E2%80%99m+currently+working+on+web++frontend+development" alt="Typing SVG" />
+  </a>
+</p> 
+
 ##  公元2022年，公历平年，共365天，53周。农历壬寅年（虎年），无闰月，共355天。中华人民共和国成立73周年。<img src="https://emojis.slackmojis.com/emojis/images/1621024394/39092/cat-roll.gif?1621024394" width="28" />
+
 <h1 align="center">Hi 👋, I'm wsz</h1>
 <h3 align="center">A passionate frontend developer from China</h3>
 
