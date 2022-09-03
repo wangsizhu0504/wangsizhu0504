@@ -62,6 +62,8 @@
 <p align="center"> 
   <img src="https://profile-counter.glitch.me/wangsizhu0504/count.svg" /> visitors
 </p>
+<!-- Dynamic Quotes -->
+<div align="center"><img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark"></div>
 
 <p>
   <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=wangsizhu0504&theme=tokyonight" />
@@ -70,5 +72,5 @@
 </p>
 <!-- profile-3d-contrib -->
 
-![](./profile-3d-contrib/profile-green.svg#gh-light-mode-only)
-![](./profile-3d-contrib/profile-night-green.svg#gh-dark-mode-only)
+![](./profile-3d-contrib/profile-green-animate.svg#gh-light-mode-only)
+![](./profile-3d-contrib/profile-night-rainbow.svg#gh-dark-mode-only)
