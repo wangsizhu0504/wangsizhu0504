@@ -1,7 +1,7 @@
 name: GitHub-Profile-3D-Contrib
 
 on:
-  schedule: 
+  schedule:
     - cron: "0 0 * * *"
   workflow_dispatch:
 
@@ -11,14 +11,15 @@ jobs:
     name: generate-github-profile-3d-contrib
     steps:
       - uses: actions/checkout@v2
-      - uses: yoshi389111/github-profile-3d-contrib@0.5.0
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.0
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name wangsizhu0504
+          git config user.email 1246458990@qq.com
           git add -A .
           git commit -m ":rocket: Generate 3D images"
           git push
+          
