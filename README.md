@@ -21,29 +21,11 @@
 
 ![](https://skillicons.dev/icons?perline=10&i=github,git,stackoverflow,vercel,vscode,js,ts,html,css,bootstrap,jquery,nodejs,python,vue,tailwind,mysql,regex,linux,bash,nginx)
 
-#### 努力学习，努力生活...
-
-<p align="center"> 
-  <img src="https://profile-counter.glitch.me/wangsizhu0504/count.svg" /> visitors
-</p>
-
-
-<!-- Dynamic Quotes -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark">
-    <source media="(prefers-color-scheme: light)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light">
-    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" />
-  </picture>
-</p>
 <br />
 <!-- Readme stats -->
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=wangsizhu0504&theme=tokyonight">
-    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=wangsizhu0504&theme=light">
-    <img width="100%" src="https://github-readme-streak-stats.herokuapp.com/?user=wangsizhu0504&theme=light" />
-  </picture>
+<p align="center"> 
+  <img src="https://github-widgetbox.vercel.app/api/profile?username=wangsizhu0504&data=followers,repositories,commits" />
+  <img src="https://profile-counter.glitch.me/wangsizhu0504/count.svg" />
 </p>
 
 <p>
