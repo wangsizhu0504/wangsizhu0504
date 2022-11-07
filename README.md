@@ -22,15 +22,17 @@
 ![My Skills](https://skillicons.dev/icons?i=vue,css,html,js,jquery,nginx,git,github,gitlab,nodejs,sass,stackoverflow,svg,vite,vscode,webpack,windicss&perline=10)
 
 <br />
-<!-- Readme stats -->
+
+<p>
+  <img width="100%" src="https://activity-graph.herokuapp.com/graph?username=wangsizhu0504&bg_color=ffffff&color=40b883&line=40b883&point=40b883&area=true&hide_border=true&area_color=477de9" />
+</p>
+
 <p align="center"> 
   <img src="https://github-widgetbox.vercel.app/api/profile?username=wangsizhu0504&data=followers,repositories,commits" />
   <img src="https://profile-counter.glitch.me/wangsizhu0504/count.svg" />
 </p>
 
-<p>
-  <img width="100%" src="https://activity-graph.herokuapp.com/graph?username=wangsizhu0504&bg_color=ffffff&color=40b883&line=40b883&point=40b883&area=true&hide_border=true&area_color=477de9" />
-</p>
+
 
 <!-- profile-3d-contrib -->
 
