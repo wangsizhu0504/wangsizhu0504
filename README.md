@@ -19,7 +19,7 @@
 
 <h3 align="left">Languages and Tools:</h3>
 
-![](https://skillicons.dev/icons?perline=10&i=github,git,stackoverflow,vercel,vscode,js,ts,html,css,bootstrap,jquery,nodejs,python,vue,tailwind,mysql,regex,linux,bash,nginx)
+![My Skills](https://skillicons.dev/icons?i=vue,css,html,js,jquery,nginx,git,github,gitlab,nodejs,sass,stackoverflow,svg,vite,vscode,webpack,windicss&perline=10)
 
 <br />
 <!-- Readme stats -->
