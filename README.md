@@ -9,19 +9,13 @@
 <h1 align="center">Hi 👋, I'm wsz</h1>
 <h3 align="center">A passionate frontend developer from China</h3>
 
-- 🌱 I’m currently learning **TypeScript、Vue3、Vite and Tailwindcss**
+- 🌱 I’m currently learning **TypeScript、Vue3、Vite** and **Tailwindcss**
 
 - 💬 Ask me about **vue**
 
 - 📫 How to reach me **124645899@qq.com**
 
 - ⚡ Fun fact **I think I am funny**
-
-<h3 align="left">Languages and Tools:</h3>
-
-![My Skills](https://skillicons.dev/icons?i=vue,css,html,js,jquery,nginx,git,github,gitlab,nodejs,sass,stackoverflow,svg,vite,vscode,webpack,windicss&perline=10)
-
-<br />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://profile-readme-wangsizhu0504.vercel.app/api/profile?username=wangsizhu0504&data=repositories,commits&theme=dark">
@@ -30,7 +24,11 @@
 </picture>
 
 <br />
+<h3 align="left">Languages and Tools:</h3>
 
+![My Skills](https://skillicons.dev/icons?i=vue,css,html,js,jquery,nginx,git,github,gitlab,nodejs,sass,stackoverflow,svg,vite,vscode,webpack,windicss&perline=10)
+
+<br />
 <p align="center"> 
   <img src="https://profile-counter.glitch.me/wangsizhu0504/count.svg" />
 </p>
