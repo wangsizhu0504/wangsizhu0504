@@ -22,9 +22,11 @@
 ![My Skills](https://skillicons.dev/icons?i=vue,css,html,js,jquery,nginx,git,github,gitlab,nodejs,sass,stackoverflow,svg,vite,vscode,webpack,windicss&perline=10)
 
 <br />
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://profile-readme-wangsizhu0504.vercel.app/api/profile?username=wangsizhu0504&data=repositories,commits&theme=dark">
   <source media="(prefers-color-scheme: light)" srcset="https://profile-readme-wangsizhu0504.vercel.app/api/profile?username=wangsizhu0504&data=repositories,commits">
+   <img width="100%" src="https://profile-readme-wangsizhu0504.vercel.app/api/profile?username=wangsizhu0504&data=repositories,commits" />
 </picture>
 
 <br />
