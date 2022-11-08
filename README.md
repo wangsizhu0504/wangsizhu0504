@@ -1,16 +1,15 @@
+<img src="resource/header.svg" width="100%">
 <p align="center">
   <a href="https://github.com/wangsizhu0504">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Roboto&pause=1000&color=51CF35&width=435&lines=console.log(%22Hello%2C%20World!%22);Welcome+to+my+Github+Page!;I%E2%80%99m+currently+working+on+web++frontend+development" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?size=35&pause=1500&color=51CF35&width=435&lines=Hi,I%E2%80%99m+wsz;Welcome+to+my+Github+Page!;I%E2%80%99m+currently+working+on+web++frontend+development;Thanks!!" alt="Typing SVG" />
   </a>
 </p> 
 
+## Enjoy! <img class=" lazyloaded" src="https://github.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/blob/master/Emojis/Activities/Party%20Popper.png?raw=true" alt="Party Popper" title="Party Popper" width="31" height="31">
+
 ##  公元2022年，公历平年，共365天，53周。农历壬寅年（虎年），无闰月，共355天。中华人民共和国成立73周年。<img src="https://emojis.slackmojis.com/emojis/images/1621024394/39092/cat-roll.gif?1621024394" width="28" />
 
-<h1 align="center">  
-  Hi, 
-  <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/waving-hand_1f44b.png" width="29px">
-  I'm wsz
-</h1>
+
 <h3 align="center">A passionate frontend developer from China</h3>
 
 - 🌱 I’m currently learning **TypeScript、Vue3、Vite** and **Tailwindcss**
@@ -20,6 +19,11 @@
 - 📫 How to reach me **124645899@qq.com**
 
 - ⚡ Fun fact **I think I am funny**
+
+### <img src="resource/Green%20Heart.png" alt="Green Heart" width="23" height="23" /> Loved my work?
+
+<img src="resource/Star.png" alt="Star" width="23" height="23" /> [Give a star to this project](https://github.com/wangsizhu0504/wangsizhu0504)<br/>
+<img src="resource/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="25" height="25" /> [Follow Me on Github](https://github.com/wangsizhu0504)<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://profile-readme-wangsizhu0504.vercel.app/api/profile?username=wangsizhu0504&data=repositories,commits&theme=dark">
@@ -39,13 +43,16 @@
 
 <br />
 
-<p>
-  <img width="100%" src="https://activity-graph.herokuapp.com/graph?username=wangsizhu0504&bg_color=ffffff&color=40b883&line=40b883&point=40b883&area=true&hide_border=true&area_color=477de9" />
-</p>
+### :sparkles: [My followers](src/getTopFollowers.py)
+<!--START_SECTION:top-followers-->
+
+<!--END_SECTION:top-followers-->
 
 <!-- profile-3d-contrib -->
 
 ![](./profile-3d-contrib/profile-green-animate.svg#gh-light-mode-only)
 ![](./profile-3d-contrib/profile-night-rainbow.svg#gh-dark-mode-only)
 
-### Thanks for visiting!&nbsp;<img src="assets/images/Partying Face.png" width="25">
+## <img src="resource/Partying Face.png" width="25"> Thanks for visiting!&nbsp;
+
+<img src="resource/footer.svg" width="100%">
