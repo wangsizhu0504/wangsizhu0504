@@ -45,7 +45,9 @@
 
 ### :sparkles: [My followers](src/getTopFollowers.py)
 <!--START_SECTION:top-followers-->
-
+<table>
+  </tr>
+</table>
 <!--END_SECTION:top-followers-->
 
 <!-- profile-3d-contrib -->
