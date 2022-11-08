@@ -6,7 +6,11 @@
 
 ##  公元2022年，公历平年，共365天，53周。农历壬寅年（虎年），无闰月，共355天。中华人民共和国成立73周年。<img src="https://emojis.slackmojis.com/emojis/images/1621024394/39092/cat-roll.gif?1621024394" width="28" />
 
-<h1 align="center">Hi 👋, I'm wsz</h1>
+<h1 align="center">  
+  Hi, 
+  <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/waving-hand_1f44b.png" width="29px">
+  I'm wsz
+</h1>
 <h3 align="center">A passionate frontend developer from China</h3>
 
 - 🌱 I’m currently learning **TypeScript、Vue3、Vite** and **Tailwindcss**
@@ -43,3 +47,5 @@
 
 ![](./profile-3d-contrib/profile-green-animate.svg#gh-light-mode-only)
 ![](./profile-3d-contrib/profile-night-rainbow.svg#gh-dark-mode-only)
+
+### Thanks for visiting!&nbsp;<img src="assets/images/Partying Face.png" width="25">
