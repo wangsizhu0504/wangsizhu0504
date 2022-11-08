@@ -28,7 +28,7 @@
 </p>
 
 <p align="center"> 
-  <img src="https://github-widgetbox.vercel.app/api/profile?username=wangsizhu0504&data=followers,repositories,commits" />
+  <img src="https://profile-readme-wangsizhu0504.vercel.app/api/profile?username=wangsizhu0504&data=repositories,commits" />
   <img src="https://profile-counter.glitch.me/wangsizhu0504/count.svg" />
 </p>
 
