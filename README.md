@@ -1,4 +1,8 @@
-<img src="resource/header.svg" width="100%">
+<img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/header.svg" width="100%">
+<div align="center">
+  <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/octo.gif" alt="GitHub Logo" width="150" height="150" />
+</div>
+
 <p align="center">
   <a href="https://github.com/wangsizhu0504">
     <img src="https://readme-typing-svg.herokuapp.com?size=35&pause=1500&color=51CF35&width=435&lines=Hi,I%E2%80%99m+wsz;Welcome+to+my+Github+Page!;I%E2%80%99m+currently+working+on+web++frontend+development;Thanks!!" alt="Typing SVG" />
