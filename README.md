@@ -1,6 +1,6 @@
-<img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/header.svg" width="100%">
+<img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/header.svg?raw=true" width="100%">
 <div align="center">
-  <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/octo.gif" alt="GitHub Logo" width="150" height="150" />
+  <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/octo.gif?raw=true" alt="GitHub Logo" width="150" height="150" />
 </div>
 
 <p align="center">
@@ -9,10 +9,9 @@
   </a>
 </p> 
 
-## Enjoy! <img class=" lazyloaded" src="https://github.com/Tarikul-Islam-Anik/Microsoft-Teams-Animated-Emojis/blob/master/Emojis/Activities/Party%20Popper.png?raw=true" alt="Party Popper" title="Party Popper" width="31" height="31">
+##  公元2022年，公历平年，共365天，53周。农历壬寅年（虎年），无闰月，共355天。中华人民共和国成立73周年。<img class=" lazyloaded" src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Party%20Popper.png?raw=true" alt="Party Popper" title="Party Popper" width="31" height="31">
 
-##  公元2022年，公历平年，共365天，53周。农历壬寅年（虎年），无闰月，共355天。中华人民共和国成立73周年。<img src="https://emojis.slackmojis.com/emojis/images/1621024394/39092/cat-roll.gif?1621024394" width="28" />
-
+## < <img class=" lazyloaded" src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/hand.png?raw=true" alt="hello" title="hello" width="28" height="28"> Hi! I'm wsz />
 
 <h3 align="center">A passionate frontend developer from China</h3>
 
@@ -24,10 +23,10 @@
 
 - ⚡ Fun fact **I think I am funny**
 
-### <img src="resource/Green%20Heart.png" alt="Green Heart" width="23" height="23" /> Loved my work?
+### <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Green%20Heart.png?raw=true" alt="Green Heart" width="23" height="23" /> Loved my work?
 
-<img src="resource/Star.png" alt="Star" width="23" height="23" /> [Give a star to this project](https://github.com/wangsizhu0504/wangsizhu0504)<br/>
-<img src="resource/Folded%20Hands%20Light%20Skin%20Tone.png" alt="Folded Hands Light Skin Tone" width="25" height="25" /> [Follow Me on Github](https://github.com/wangsizhu0504)<br/>
+<img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Star.png?raw=true" alt="Star" width="23" height="23" /> [Give a star to this project](https://github.com/wangsizhu0504/wangsizhu0504)<br/>
+<img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Folded%20Hands%20Light%20Skin%20Tone.png?raw=true" alt="Folded Hands Light Skin Tone" width="25" height="25" /> [Follow Me on Github](https://github.com/wangsizhu0504)<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://profile-readme-wangsizhu0504.vercel.app/api/profile?username=wangsizhu0504&data=repositories,commits&theme=dark">
@@ -47,18 +46,10 @@
 
 <br />
 
-### :sparkles: [My followers](src/getTopFollowers.py)
-<!--START_SECTION:top-followers-->
-<table>
-  </tr>
-</table>
-<!--END_SECTION:top-followers-->
-
-<!-- profile-3d-contrib -->
 
 ![](./profile-3d-contrib/profile-green-animate.svg#gh-light-mode-only)
 ![](./profile-3d-contrib/profile-night-rainbow.svg#gh-dark-mode-only)
 
-## <img src="resource/Partying Face.png" width="25"> Thanks for visiting!&nbsp;
+## <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Partying Face.png?raw=true" width="25"> Thanks for visiting!&nbsp;See you next Time!!!
 
-<img src="resource/footer.svg" width="100%">
+<img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/footer.svg?raw=true" width="100%">
