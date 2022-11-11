@@ -12,6 +12,8 @@
 
 <h3 align="center">A passionate frontend developer from China</h3>
 
+  > I live and work in China, BeiJing. I spend most of my day, experimenting with HTML, CSS and Javascript (and it's endless list of frameworks). I enjoy coding and the challenge of learning something new everyday.
+
 - 🌱 I’m currently learning **TypeScript、Vue3、Vite** and **Tailwindcss**
 
 - 💬 Ask me about **vue**
@@ -19,6 +21,23 @@
 - 📫 How to reach me **124645899@qq.com**
 
 - ⚡ Fun fact **I think I am funny**
+
+- 🚀 I use daily:
+  [![JavaScript](https://img.shields.io/badge/JavaScript-000000?logo=JavaScript&logoColor=FFCA28)](https://img.shields.io/badge/JavaScript-000000?logo=JavaScript&logoColor=FFCA28)
+  [![Vue](https://img.shields.io/badge/Vue.js-35495E?logo=vue.js&logoColor=4FC08D)](https://img.shields.io/badge/Vue.js-35495E?logo=vue.js&logoColor=4FC08D)
+  [![Git](https://img.shields.io/badge/-Git-000000?logo=git&logoColor=FF7043)](https://img.shields.io/badge/-Git-000000?logo=git&logoColor=FF7043)
+  [![Shell](https://img.shields.io/badge/-Shell-4EC422?logo=Shell&logoColor=FF7043)](https://img.shields.io/badge/-Shell-4EC422?logo=Shell&logoColor=FF7043)
+  [![Nginx](https://img.shields.io/badge/-Nginx-F6C915?logo=nginx&logoColor=029137)](https://img.shields.io/badge/-Nginx-F6C915?logo=nginx&logoColor=029137)
+  [![Webpack](https://img.shields.io/badge/-webpack-2B3A42?logo=webpack&logoColor=75AFCC)](https://img.shields.io/badge/-webpack-2B3A42?logo=webpack&logoColor=75AFCC)
+  [![Vite](https://img.shields.io/badge/-vite-2B3A42?logo=vite&logoColor=bd34fe)](https://img.shields.io/badge/-vite-2B3A42?logo=vite&logoColor=bd34fe)
+  [![NPM](https://img.shields.io/badge/-NPM-2875E3?logo=npm&logoColor=029137)](https://img.shields.io/badge/-NPM-2875E3?logo=npm&logoColor=029137)
+  [![Postman](https://img.shields.io/badge/-Postman-7A1FA2?logo=postman&logoColor=FC8019)](https://img.shields.io/badge/-Postman-7A1FA2?logo=postman&logoColor=FC8019)
+  
+- 💻 I work using:
+  [![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=plastic&logo=visual-studio-code)](https://img.shields.io/badge/-VS%20Code-007ACC?style=plastic&logo=visual-studio-code)
+  [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=plastic&logo=github)](https://img.shields.io/badge/-GitHub-181717?style=plastic&logo=github)
+
+
 
 ### <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Green%20Heart.png?raw=true" alt="Green Heart" width="23" height="23" /> Loved my work?
 
@@ -48,5 +67,5 @@
 ![](./profile-3d-contrib/profile-night-rainbow.svg#gh-dark-mode-only)
 
 ## <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Partying Face.png?raw=true" width="25"> Thanks for visiting!&nbsp;See you next Time!!!
-
+<img src="https://github.githubassets.com/images/modules/site/home-campaign/astrocat.png" height="100px">
 <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/footer.svg?raw=true" width="100%">
