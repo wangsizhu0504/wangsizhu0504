@@ -1,7 +1,4 @@
 <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/header.svg?raw=true" width="100%">
-<div align="center">
-  <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/octo.gif?raw=true" alt="GitHub Logo" width="150" height="150" />
-</div>
 
 <p align="center">
   <a href="https://github.com/wangsizhu0504">
