@@ -12,15 +12,13 @@
 
 <h3 align="center">A passionate frontend developer from China</h3>
 
-  > I live and work in China, BeiJing. I spend most of my day, experimenting with HTML, CSS and Javascript (and it's endless list of frameworks). I enjoy coding and the challenge of learning something new everyday.
+  - I live and work in China, BeiJing. I spend most of my day, experimenting with HTML, CSS and Javascript (and it's endless list of frameworks). I enjoy coding and the challenge of learning something new everyday.
 
 - 🌱 I’m currently learning **TypeScript、Vue3、Vite** and **Tailwindcss**
 
 - 💬 Ask me about **vue**
 
-- 📫 How to reach me **124645899@qq.com**
-
-- ⚡ Fun fact **I think I am funny**
+- 📫 How to reach me **wangsizhu0504@outlook.com**
 
 - 🚀 I use daily:
   [![JavaScript](https://img.shields.io/badge/JavaScript-000000?logo=JavaScript&logoColor=FFCA28)](https://img.shields.io/badge/JavaScript-000000?logo=JavaScript&logoColor=FFCA28)
@@ -57,7 +55,8 @@
 
 <br />
 <p align="center"> 
-  <img src="https://profile-counter.glitch.me/wangsizhu0504/count.svg" />
+  Welcome, You are my  <img src="https://profile-counter.glitch.me/wangsizhu0504/count.svg" /> visitor, Thank You!
+  <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Heart%20Hands.png" alt="Heart Hands" width="30" height="30" />
 </p>
 
 <br />
@@ -67,5 +66,4 @@
 ![](./profile-3d-contrib/profile-night-rainbow.svg#gh-dark-mode-only)
 
 ## <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Partying Face.png?raw=true" width="25"> Thanks for visiting!&nbsp;See you next Time!!!
-<img src="https://github.githubassets.com/images/modules/site/home-campaign/astrocat.png" height="100px">
 <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/footer.svg?raw=true" width="100%">
