@@ -42,12 +42,6 @@
 <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Star.png?raw=true" alt="Star" width="23" height="23" /> [Give a star to this project](https://github.com/wangsizhu0504/wangsizhu0504)<br/>
 <img src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Folded%20Hands%20Light%20Skin%20Tone.png?raw=true" alt="Folded Hands Light Skin Tone" width="25" height="25" /> [Follow Me on Github](https://github.com/wangsizhu0504)<br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://profile-readme-wangsizhu0504.vercel.app/api/profile?username=wangsizhu0504&data=repositories,commits&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://profile-readme-wangsizhu0504.vercel.app/api/profile?username=wangsizhu0504&data=repositories,commits">
-   <img width="100%" src="https://profile-readme-wangsizhu0504.vercel.app/api/profile?username=wangsizhu0504&data=repositories,commits" />
-</picture>
-
 <br />
 <h3 align="left">Languages and Tools:</h3>
 
