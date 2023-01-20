@@ -6,7 +6,7 @@
   </a>
 </p> 
 
-## 公元2022年，公历平年，共365天，53周。农历壬寅年（虎年），无闰月，共355天。中华人民共和国成立73周年。<img class=" lazyloaded" src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Party%20Popper.png?raw=true" alt="Party Popper" title="Party Popper" width="31" height="31">
+## 2023年，公历平年，共365天，52周零一天。全年为壬寅年腊月初十～癸卯年十一月十九。1月1日～1月21日为壬寅年（虎年）；1月22日～12月31日为癸卯年（兔年），闰二月（小），共384天。。中华人民共和国成立74周年。<img class=" lazyloaded" src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Party%20Popper.png?raw=true" alt="Party Popper" title="Party Popper" width="31" height="31">
 
 # < <img class=" lazyloaded" src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/hand.png?raw=true" alt="hello" title="hello" width="28" height="28"> Hi! I'm wsz />
 
