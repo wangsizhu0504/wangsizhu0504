@@ -4,7 +4,7 @@
   <a href="https://github.com/wangsizhu0504">
     <img src="https://readme-typing-svg.herokuapp.com?size=35&pause=1500&color=51CF35&width=435&lines=Hi,I%E2%80%99m+wsz;Welcome+to+my+Github+Page!;I%E2%80%99m+currently+working+on+web++frontend+development;Thanks!!" alt="Typing SVG" />
   </a>
-</p> 
+</p>
 
 ## 2023年，公历平年，共365天，52周零一天。全年为壬寅年腊月初十～癸卯年十一月十九。1月1日～1月21日为壬寅年（虎年）；1月22日～12月31日为癸卯年（兔年），闰二月（小），共384天。。中华人民共和国成立74周年。<img class=" lazyloaded" src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/Party%20Popper.png?raw=true" alt="Party Popper" title="Party Popper" width="31" height="31">
 
@@ -30,7 +30,7 @@
   [![Vite](https://img.shields.io/badge/-vite-2B3A42?logo=vite&logoColor=bd34fe)](https://img.shields.io/badge/-vite-2B3A42?logo=vite&logoColor=bd34fe)
   [![NPM](https://img.shields.io/badge/-NPM-2875E3?logo=npm&logoColor=029137)](https://img.shields.io/badge/-NPM-2875E3?logo=npm&logoColor=029137)
   [![Postman](https://img.shields.io/badge/-Postman-7A1FA2?logo=postman&logoColor=FC8019)](https://img.shields.io/badge/-Postman-7A1FA2?logo=postman&logoColor=FC8019)
-  
+
 - 💻 I work using:
   [![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=plastic&logo=visual-studio-code)](https://img.shields.io/badge/-VS%20Code-007ACC?style=plastic&logo=visual-studio-code)
   [![GitHub](https://img.shields.io/badge/-GitHub-181717?style=plastic&logo=github)](https://img.shields.io/badge/-GitHub-181717?style=plastic&logo=github)
@@ -48,8 +48,8 @@
 ![My Skills](https://skillicons.dev/icons?i=vue,css,html,js,jquery,nginx,git,github,gitlab,nodejs,sass,stackoverflow,svg,vite,vscode,webpack,windicss&perline=10)
 
 <br />
-<p align="center"> 
-  Welcome, You are my  <img src="https://profile-counter.glitch.me/wangsizhu0504/count.svg" /> visitor, Thank You!
+<p align="center">
+  Welcome, You are my  <img src="https://profile-counter.glitch.me/wangsizhu0504/count.svg" /> visitor(September 1, 2022), Thank You!
   <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Heart%20Hands.png" alt="Heart Hands" width="30" height="30" />
 </p>
 

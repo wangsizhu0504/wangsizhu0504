@@ -1,125 +1,377 @@
-# 具体配置文档地址 https://github.com/lowlighter/metrics/blob/master/action.yml
-# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
+# 此开源项目地址 https://github.com/lowlighter/metrics
 
-name: GitHub metrics
+name: GitHub Metrics
+
 on:
-  schedule: 
-      - cron: "0 0 * * *"
+  schedule:
+    - cron: "0 0 * * *"
+    # https://docs.github.com/zh/actions/using-workflows/events-that-trigger-workflows#schedule
   workflow_dispatch:
-  push: {branches: ["master", "main"]}
-  
+
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      # base metrics
-      - name: base_metrics
+      # 基础信息（顺带了几个小插件）
+      - name: base
         uses: lowlighter/metrics@latest
         with:
-          filename: base_metrics.svg
+          filename: github-metrics/base.svg
           # Your GitHub token
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.ACCESS_TOKEN }}
           # Options
           user: sun0225SUN
           template: classic
           config_timezone: Asia/Shanghai
-          committer_message: ":rocket: Update"
           base: "header, activity, community, repositories"
+          # 此插件为文档中的 🧮 Repositories traffic
           plugin_traffic: yes
+          # 此插件为文档中的 👨‍💻 Lines of code changed
           plugin_lines: yes
-      
-      # plugin metrics
-      - name: plugin_metrics
+          # 此插件为文档中的 🙋 Introduction
+          plugin_introduction: yes
+          # 此插件为文档中的 🎫 Gists
+          plugin_gists: no
+          # 此插件为文档中的 💫 Star lists
+          plugin_starlists: yes
+          plugin_starlists_limit_repositories: 2
+          plugin_starlists_languages: yes
+          plugin_starlists_limit_languages: 8
+          plugin_starlists_only: Awesome
+
+      # 📅 Isometric commit calendar
+      - name: Full-year calendar
         uses: lowlighter/metrics@latest
         with:
-          filename: plugin_metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: sun0225SUN
-          template: classic
-          committer_message: ":rocket: Update"
+          filename: github-metrics/isocalendar.fullyear.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          # 不添加基础信息
           base: ""
-          config_timezone: Asia/Shanghai
-          
-          # 🏆 Achievements 我的成就
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_secrets: yes
-          plugin_achievements_threshold: C
-          
-          # 📰 Recent activity 最近活动
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 3
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
-          
-          # 🎟️ Follow-up of issues and pull requests
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-          plugin_introduction: yes
-          plugin_introduction_title: yes
-          
-          # 📅 Isometric commit calendar 日历图
+          # 使用此插件
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year                            # Display full year instead of half year
-          
-          # ✨ Stargazers over last weeks
-          plugin_stargazers: yes
-          
-          # 🈷️ Most used languages 常用语言统计
+          # 设置成显示整年
+          plugin_isocalendar_duration: full-year
+
+      # 🈷️ Languages activity
+      - name: Indepth analysis
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/languages.indepth.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          base: ""
           plugin_languages: yes
-          plugin_languages_ignored: html, css                               # List of languages to ignore (忽略语言)
-          plugin_languages_skipped: sun0225SUN                              # List of repositories to skip (忽略仓库)
-          plugin_languages_colors: "0:orange, javascript:#ff0000, ..."      # Make most used languages orange and JavaScript red (语言配色)
-          plugin_languages_aliases: "JavaScript:JS, TypeScript:TS, ..."     # Customize languages names with aliases (重命名语言)
-          plugin_languages_details: bytes-size, percentage                  # Additionally display total bytes size and percentage (显示大小和百分比)
-          plugin_languages_threshold: 2%                                    # Hides all languages less than 2% (隐藏占比较少的语言)
-          plugin_languages_limit: 8                                         # Display up to 8 languages (显示的语言种数)
-          plugin_languages_sections: most-used                              # Display most used and recently used languages stats
-          plugin_languages_indepth: no                                      # Get indepth stats (see documentation before enabling) 
-          plugin_languages_categories: programming                          # Display only languages that match these categories in most-used section
-          plugin_languages_recent_categories: markup, programming           # Display only languages that match these categories in recently-used section
-          plugin_languages_recent_load: 500                                 # Load up to 500 events to compute recently used stats
-          plugin_languages_recent_days: 14                                  # Limit recently used stats to last week (最近使用的语言统计范围)
-          
-          # 💡 Coding habits (编码习惯)
-          plugin_habits: yes
-          plugin_habits_from: 200                                   # Use 200 events to compute habits
-          plugin_habits_days: 14                                    # Keep only events from last 14 days
-          plugin_habits_facts: yes                                  # Display facts section
-          plugin_habits_charts: yes                                 # Display charts section
-          plugin_habits_trim: yes                                   # Trim unused hours on daily chart
-          
-          # 🧑‍🤝‍🧑 People plugin 关注与被关注
-          plugin_people: yes
-          plugin_people_types: followers, following                 # Display followers and "thanks" sections
-          plugin_people_limit: 150                                   # Limit to 28 entries per section
-          plugin_people_size: 36                                    # Size in pixels of displayed avatars
-          plugin_people_identicons: no                              # Use avatars (do not use identicons)
-          plugin_people_thanks: octocat                             # Users that will be displayed in "thanks" section
-          plugin_people_sponsors_custom: octocat                    # Users that will be displayed additionally in "sponsors" section
-          plugin_people_shuffle: yes                                # Shuffle for varied output
-          
-          # 🗂️ Active projects 我的工程
-          plugin_projects: yes
-          plugin_projects_limit: 5
-         
-         # 🌟 Recently starred repositories
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
+            gnuplot
+          plugin_languages_indepth: yes
+          plugin_languages_details: lines, bytes-size
+          plugin_languages_limit: 4
+          plugin_languages_analysis_timeout: 15
+
+      # ✨ Stargazers
+      - name: Using chartist charts
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/stargazers.chartist.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          base: ""
+          plugin_stargazers: yes
+          plugin_stargazers_charts_type: chartist
+
+#       # 📌 Starred topics
+#       - name: Icons
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/topics.icons.svg
+#           token: NOT_NEEDED
+#           base: ""
+#           plugin_topics: yes
+#           plugin_topics_limit: 0
+#           plugin_topics_mode: icons
+
+      # 🌟 Recently starred repositories
+      - name: Recently starred
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/stars.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          base: ""
           plugin_stars: yes
-          plugin_stars_limit: 5   # Limit to 5 entries
-         
-         # 🎭 Comment reactions (评论反馈)
+          plugin_stars_limit: 3
+
+#       # 📜 Repository licenses
+#       - name: Licenses with open-source ratio graphs
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/licenses.ratio.svg
+#           token: ${{ secrets.ACCESS_TOKEN }}
+#           base: ""
+#           template: repository
+#           repo: metrics
+#           plugin_licenses: yes
+#           plugin_licenses_setup: bash -c '[[ -f package.json ]] && npm ci || true'
+#           plugin_licenses_legal: no
+#           plugin_licenses_ratio: yes
+
+      # 💡 Coding habits and activity
+      - name: Recent activity charts
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/habits.charts.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: no
+          plugin_habits_charts: yes
+          config_timezone: Europe/Paris
+
+#       # 🏅 Repository contributors
+#       - name: Contributors with contributions count
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/contributors.contributions.svg
+#           token: ${{ secrets.ACCESS_TOKEN }}
+#           base: ""
+#           template: repository
+#           repo: metrics
+#           plugin_contributors: yes
+#           plugin_contributors_contributions: yes
+
+      # 🎟️ Follow-up of issues and pull requests
+      - name: Indepth analysis
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/followup.indepth.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          base: ""
+          plugin_followup: yes
+          plugin_followup_indepth: yes
+
+      # 🎭 Comment reactions
+      - name: Comment reactions
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/reactions.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          base: ""
           plugin_reactions: yes
-          plugin_reactions_limit: 200                               # Compute reactions over last 200 issue comments
-          plugin_reactions_limit_issues: 100                        # Compute reactions over last 100 issues/pull requests opened
-          plugin_reactions_days: 14                                 # Compute reactions on issue comments posted less than 14 days ago
-          plugin_reactions_details: count, percentage               # Display reactions count and percentage
-          plugin_reactions_ignored: bot                             # Ignore "bot" user
-          
-          # 🌇 GitHub Skyline 3D calendar 3D贡献图
+          plugin_reactions_limit: 100
+          plugin_reactions_details: percentage
+
+      # 🧑‍🤝‍🧑 People
+      - name: Followers
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/people.followers.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          base: ""
+          plugin_people: yes
+          plugin_people_limit: 500
+          plugin_people_size: 36
+          plugin_people_types: followers, following
+
+#       # 💕 GitHub Sponsors
+#       - name: Sponsors goal
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/sponsors.svg
+#           token: ${{ secrets.ACCESS_TOKEN }}
+#           base: ""
+#           plugin_sponsors: yes
+#           plugin_sponsors_sections: goal, list
+#           plugin_sponsors_past: yes
+
+      # 📓 Featured repositories
+      - name: Pinned repositories
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/repositories.pinned.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          base: ""
+          plugin_repositories: yes
+          plugin_repositories_pinned: 2
+
+      # 💬 Discussions
+      - name: GitHub Discussions
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/discussions.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          base: ""
+          plugin_discussions: yes
+          plugin_discussions_categories_limit: 8
+
+      # 📆 Commit calendar
+      - name: Full history calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/calendar.full.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          base: ""
+          plugin_calendar: yes
+          plugin_calendar_limit: 0
+
+      # 🏆 Achievements
+      - name: Compact display
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/achievements.compact.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: >-
+            polyglot, stargazer, sponsor, deployer, member, maintainer, developer,
+            scripter, packager, explorer, infographile, manager
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
+
+      # 📰 Recent activity
+      - name: Recent activity
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/activity.svg
+          token: ${{ secrets.ACCESS_TOKEN }}
+          base: ""
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 0
+          plugin_activity_filter: issue, pr, release, fork, review, ref/create
+
+#       # ♐ Random code snippet
+#       - name: JavaScript or TypeScript snippet of the day
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/code.svg
+#           token: ${{ secrets.ACCESS_TOKEN }}
+#           base: ""
+#           plugin_code: yes
+#           plugin_code_languages: javascript, typescript
+#           plugin_code_load: 400
+
+#       # 🗂️ GitHub projects
+#       - name: Project from a repository
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/projects.svg
+#           token: ${{ secrets.ACCESS_TOKEN_WITH_SCOPES }}
+#           base: ""
+#           plugin_projects: yes
+#           plugin_projects_repositories: lowlighter/metrics/projects/1
+#           plugin_projects_descriptions: yes
+
+#       # 🌇 GitHub Skyline
+#       - name: GitHub Skyline
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/skyline.svg
+#           token: NOT_NEEDED
+#           base: ""
 #           plugin_skyline: yes
-#           plugin_skyline_year: 2022                                    # Set to 0 to display current year (统计年份)
-#           plugin_skyline_frames: 30                                 # Use 60 frames (half-loop) (半循环or全循环)
-#           plugin_skyline_quality: 0.5                               # Set image quality (图片质量) 
-#           plugin_skyline_compatibility: no                          # Support additional browsers (⚠️ increases file size and reduce optimization)   
+#           plugin_skyline_year: 2023
+#           plugin_skyline_frames: 6
+#           plugin_skyline_quality: 1
+
+      # ⏱️ Google PageSpeed
+      - name: Screenshot
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/pagespeed.screenshot.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_pagespeed: yes
+          plugin_pagespeed_detailed: yes
+          plugin_pagespeed_screenshot: yes
+          plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
+          plugin_pagespeed_url: https://blog.sunguoqi.com
+
+      # 🐤 Latest tweets
+      # 需要申请开发者账户
+#       - name: Latest tweets including attachments
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/tweets.attachments.svg
+#           token: NOT_NEEDED
+#           base: ""
+#           plugin_tweets: yes
+#           plugin_tweets_token: ${{ secrets.TWITTER_TOKEN }}
+#           plugin_tweets_attachments: yes
+#           plugin_tweets_user: github
+#           plugin_tweets_limit: 1
+
+      # 🗨️ Stack Overflow
+      - name: Top answers from stackoverflow
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics/stackoverflow.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_stackoverflow: yes
+          plugin_stackoverflow_user: 1
+          plugin_stackoverflow_sections: answers-top
+          plugin_stackoverflow_limit: 2
+
+#       # 🌸 Anilist watch list and reading list
+#       - name: Favorites characters
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/anilist.characters.svg
+#           token: NOT_NEEDED
+#           base: ""
+#           plugin_anilist: yes
+#           plugin_anilist_sections: characters
+#           plugin_anilist_limit_characters: 22
+
+#       # 🎼 Music activity and suggestions
+#       - name: Spotify - Random track from playlist
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/music.playlist.spotify.svg
+#           token: NOT_NEEDED
+#           base: ""
+#           plugin_music: yes
+#           plugin_music_playlist: https://open.spotify.com/embed/playlist/3nfA87oeJw4LFVcUDjRcqi
+
+#       # ✒️ Recent posts
+#       - name: Recent posts with descriptions and cover images
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/posts.full.svg
+#           token: NOT_NEEDED
+#           base: ""
+#           plugin_posts: yes
+#           plugin_posts_source: dev.to
+#           plugin_posts_limit: 2
+#           plugin_posts_descriptions: yes
+#           plugin_posts_covers: yes
+
+#       # 🗼 Rss feed
+#       - name: News from hackernews
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/rss.svg
+#           token: NOT_NEEDED
+#           base: ""
+#           plugin_rss: yes
+#           plugin_rss_source: https://news.ycombinator.com/rss
+#           plugin_rss_limit: 4
+
+      # ⏰ WakaTime
+      # - name: WakaTime
+      #   uses: lowlighter/metrics@latest
+      #   with:
+      #     filename: github-metrics/wakatime.svg
+      #     token: NOT_NEEDED
+      #     base: ""
+      #     plugin_wakatime: yes
+      #     plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+      #     plugin_wakatime_token: ${{ secrets.WAKATIME_API_KEY }}
+
+#       # 🗳️ Leetcode
+#       - name: LeetCode
+#         uses: lowlighter/metrics@latest
+#         with:
+#           filename: github-metrics/leetcode.svg
+#           token: NOT_NEEDED
+#           base: ""
+#           plugin_leetcode: yes
+#           plugin_leetcode_sections: solved, skills, recent
