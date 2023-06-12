@@ -69,8 +69,6 @@
 
 <br />
 
-![github-stats](https://stats.hyochan.dev/api/github-stats-advanced?login=wangsizhu0504)
-
 ![](./profile-3d-contrib/profile-green-animate.svg#gh-light-mode-only)
 ![](./profile-3d-contrib/profile-night-rainbow.svg#gh-dark-mode-only)
 
