@@ -8,10 +8,9 @@
 
 # < <img class=" lazyloaded" src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/hand.png?raw=true" alt="hello" title="hello" width="28" height="28"> Hi! I'm Kriszu />
 
-### 2023年(公历平年)，共365天(52周零一天), 全年为壬寅年腊月初十～癸卯年十一月十九。
-### 1月1日～1月21日为壬寅年（虎年），1月22日～12月31日为癸卯年（兔年）
-### 闰二月（小），共384天。
-## *中华人民共和国成立74周年。* 
+### 2024年，公历闰年，共366天、53周。农历甲辰年（龙年），无闰月，共354天。
+### 农历起止日期为2024年2月10日-2025年1月28日
+## *中华人民共和国成立75周年。* 
 
 <p align="center">
 <img width="400" src="https://how-long-gamma.vercel.app/api" alt="How Long" />
