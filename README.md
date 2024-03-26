@@ -6,7 +6,9 @@
   </a>
 </p>
 
-# < <img class=" lazyloaded" src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/hand.png?raw=true" alt="hello" title="hello" width="28" height="28"> Hi! I'm Kriszu />
+# <img class=" lazyloaded" src="https://github.com/wangsizhu0504/wangsizhu0504/blob/main/resource/hand.png?raw=true" alt="hello" title="hello" width="28" height="28" /> Hi! I'm Kriszu 🧑🏻‍💻
+
+[![wakatime](https://wakatime.com/badge/user/c3d54030-6d83-4a7b-8090-21c61f3aadc5.svg)](https://wakatime.com/@c3d54030-6d83-4a7b-8090-21c61f3aadc5)
 
 ### 2024年，公历闰年，共366天、53周。农历甲辰年（龙年），无闰月，共354天。
 ### 农历起止日期为2024年2月10日-2025年1月28日
