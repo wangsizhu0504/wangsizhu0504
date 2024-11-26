@@ -22,10 +22,10 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="333.6111632572578" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="333.6111632572578" y="0" width="113.73067544593091" height="8" fill="#41b883"/>
-                    <rect mask="url(#languages-bar)" x="447.3418387031887" y="0" width="6.34519601109435" height="8" fill="#fcb32c"/>
-                    <rect mask="url(#languages-bar)" x="453.6870347142831" y="0" width="6.31296528571693" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="209.4354553542618" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="209.4354553542618" y="0" width="128.8367809171724" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="338.2722362714342" y="0" width="115.29527640636162" height="8" fill="#41b883"/>
+                    <rect mask="url(#languages-bar)" x="453.56751267779583" y="0" width="6.432487322204158" height="8" fill="#fcb32c"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -37,24 +37,10 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>247k lines</div>
-                                <div>7.13 MB</div>
+                                <div>150k lines</div>
+                                <div>4.42 MB</div>
                             </small>
                         </div>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#fcb32c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                MDX
-                            </div>
-                            <small>
-                                <div>2.31k lines</div>
-                                <div>135 kB</div>
-                            </small>
-                        </div>
-                    </section>
-                    <section>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -67,16 +53,30 @@
                                 <div>2.43 MB</div>
                             </small>
                         </div>
+                    </section>
+                    <section>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#f1e05a" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#3178c6" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                JavaScript
+                                TSX
                             </div>
                             <small>
-                                <div>4.99k lines</div>
-                                <div>134 kB</div>
+                                <div>97.5k lines</div>
+                                <div>2.72 MB</div>
+                            </small>
+                        </div>
+                        <div class="field language details">
+                            <div class="field">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                    <path fill="#fcb32c" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                </svg>
+                                MDX
+                            </div>
+                            <small>
+                                <div>2.31k lines</div>
+                                <div>135 kB</div>
                             </small>
                         </div>
                     </section>
