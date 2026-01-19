@@ -11,10 +11,6 @@
 [![wakatime](https://wakatime.com/badge/user/c3d54030-6d83-4a7b-8090-21c61f3aadc5.svg)](https://wakatime.com/@c3d54030-6d83-4a7b-8090-21c61f3aadc5)
 
 
-### 2025年，是公历平年，共365天，53周，比乙巳蛇年少19天。
-### 农历乙巳年（蛇年，2025年1月29日—2026年2月16日），双春年，闰六月，共384天。
-## *中华人民共和国成立76周年。* 
-
 <p align="center">
 <img width="400" src="https://how-long-gamma.vercel.app/api" alt="How Long" />
 </p>
